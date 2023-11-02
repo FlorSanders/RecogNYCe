@@ -43,4 +43,4 @@ We could try to develop both models and compare their performance?
 - New dataset for street-level pictures for the boroughs / neigborhoods in NYC
 - Model(s) trained for classification / geolocation based on these images
 - (Possibly) minigame that allows you to play NYC Geoguessr against the AI
-  - (Possibly) comparison of human and AI performance in this specific case based on logs
+  - ## (Possibly) comparison of human and AI performance in this specific case based on logs
