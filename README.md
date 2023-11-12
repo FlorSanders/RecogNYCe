@@ -36,7 +36,22 @@ High-level idea, two possible approaches:
 2. Classification:
    - classify immediately on the known class list of boroughs / neighborhoods
 
-We could try to develop both models and compare their performance?
+We could try to develop both models and compare their performance.
+
+The performance for the classification problem should be compared to:
+
+- [ ] Random choices
+- [ ] Prior distribution choices
+- [ ] Naive bayes method
+- [ ] Simple LeNet architecture
+
+Some nice visualizations would be
+
+- [ ] Confusion matrix
+- [ ] Scatter map with wrong/right points
+- [ ] Precision vs recall plot
+- [ ] Some examples of well-classified images & wrongly classified images
+- [ ] Where our models score in the distribution of users
 
 ## Outcome
 

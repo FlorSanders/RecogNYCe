@@ -9,6 +9,7 @@ import asyncio
 import pandas as pd
 
 # Load token from .env (security yay)
+# See: https://help.mapillary.com/hc/en-us/articles/360010234680-Accessing-imagery-and-data-through-the-Mapillary-API
 load_dotenv()
 token = os.getenv("MAPILLARY_TOKEN")
 assert token, "Please create a .env file and add your mapilarry token under the MAPILLARY_TOKEN key"
