@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-csv_path = "./data/mapillary/data.csv"
+csv_path = "./data/all/data_webapp.csv"
 file_dir = os.path.dirname(os.path.realpath(__file__))
 csv_path = os.path.join(file_dir, "..", "..", "..", csv_path)
 assert os.path.exists(csv_path), "CSV file does not exist"

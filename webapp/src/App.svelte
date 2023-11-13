@@ -141,7 +141,7 @@
   };
 </script>
 
-<div class="w-100 h-screen flex flex-col items-center p-8">
+<div class="h-screen flex flex-col items-center p-8">
   <h1 class="text-6xl pb-2">RecogNYCe</h1>
   <h2 class="text-3xl italic pb-2">
     {#if count === 0}
@@ -156,17 +156,17 @@
         START
       </button>
     {:else if page === "game"}
-      <div class="card w-100 bg-base-200 shadow-xl" style="max-width: 600px;">
+      <div class="card w-96 lg:w-full bg-base-200 lg:flex-row shadow-xl">
         <figure>
           <img
             src={img}
-            class="aspect-video object-cover"
+            class="aspect-square object-cover"
             alt="Guess the borough!"
           />
         </figure>
-        <div class="card-body w-100">
+        <div class="card-body flex-col justify-center">
           <h3 class="text-center font-bold text-2xl">Guess the borough!</h3>
-          <div class="flex flex-col items-center w-100 space-y-2">
+          <div class="flex flex-col items-center space-y-2">
             {#each boroughs as borough, i}
               <button
                 class="w-4/5 btn {colors[i]} {loading ? 'btn-disabled' : ''}"
