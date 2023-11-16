@@ -52,6 +52,7 @@ Some nice visualizations would be
 - [ ] Precision vs recall plot
 - [ ] Some examples of well-classified images & wrongly classified images
 - [ ] Where our models score in the distribution of users
+- [ ] t-SNE visualization of our image data / of the features by our learned network
 
 ## Outcome
 
