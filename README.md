@@ -38,22 +38,6 @@ High-level idea, two possible approaches:
 
 We could try to develop both models and compare their performance.
 
-The performance for the classification problem should be compared to:
-
-- [ ] Random choices
-- [ ] Prior distribution choices
-- [ ] Naive bayes method
-- [ ] Simple LeNet architecture
-
-Some nice visualizations would be
-
-- [ ] Confusion matrix
-- [ ] Scatter map with wrong/right points
-- [ ] Precision vs recall plot
-- [ ] Some examples of well-classified images & wrongly classified images
-- [ ] Where our models score in the distribution of users
-- [ ] t-SNE visualization of our image data / of the features by our learned network
-
 ## Outcome
 
 - New dataset for street-level pictures for the boroughs / neigborhoods in NYC
