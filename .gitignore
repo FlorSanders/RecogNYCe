@@ -164,3 +164,6 @@ data/**/*.png
 data/**/*.jpg
 data/**/*.jpeg
 data/**/*.csv
+
+!data/all/data.csv
+!data/all/data_webapp.csv

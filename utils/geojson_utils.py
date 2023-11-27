@@ -106,7 +106,7 @@ class Neighborhoods():
             if self.neighborhood_samples and len(self.neighborhood_samples):
                 samples = self.neighborhood_samples[i]
                 if len(samples):
-                    ax.scatter(samples[:, 0], samples[:, 1], c=f"C{i}")
+                    ax.scatter(samples[:, 0], samples[:, 1], c=f"C{i}", marker=".")
                 else:
                     print(f"Warning: {neighborhood_name} has no samples")
         
