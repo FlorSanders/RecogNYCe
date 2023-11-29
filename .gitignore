@@ -167,3 +167,6 @@ data/**/*.csv
 
 !data/all/data.csv
 !data/all/data_webapp.csv
+
+# Do not upload the model weights
+models/*.pth

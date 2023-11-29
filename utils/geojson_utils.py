@@ -98,7 +98,7 @@ class Neighborhoods():
 
     def plot(self, ax=None, plot_samples = True):
         if ax is None:
-            fig, ax = make_figax()
+            fig, ax = plt.subplots()
         
         for i, neighborhood in enumerate(self.neighborhoods):
             neighborhood_name = self.neighborhood_names[i]
